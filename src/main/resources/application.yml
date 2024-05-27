@@ -1,0 +1,11 @@
+spring:
+  application.name: chatgpt-api
+  config:
+    activate:
+      on-profile: default
+
+server:
+  port: 8080
+
+chatgpt:
+  api-key: #your api-key
